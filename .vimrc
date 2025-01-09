@@ -57,10 +57,10 @@ set laststatus=2
 " Format the status line
 set statusline=
 set statusline+=%7*\[%n]                                  "buffernr
-set statusline+=%1*\ %<%F\ %m\                                "File+path
+set statusline+=%1*\ %<%F\ %m\                            "File+path
 set statusline+=%2*\ %y\                                  "FileType
 set statusline+=%3*\ %{''.(&fenc!=''?&fenc:&enc).''}      "Encoding
 set statusline+=%3*\ %{(&bomb?\",BOM\":\"\")}\            "Encoding2
 set statusline+=%4*\ %{&ff}\                              "FileFormat (dos/unix..)
-set statusline+=%8*\ %=\ line:\ %l/%L\ (%p%%)\             "Rownumber/total (%)
+set statusline+=%8*\ %=\ line:\ %l/%L\ (%p%%)\            "Rownumber/total (%)
 set statusline +=%1*\col:\ %v\ %*
